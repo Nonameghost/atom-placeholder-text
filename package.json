@@ -1,15 +1,17 @@
 {
   "name": "placeholder-text",
   "main": "./lib/placeholder-text",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A convenient dummy text palette for Atom.",
-  "activationEvents": ["placeholder-text:toggle"],
+  "activationEvents": [
+    "placeholder-text:toggle"
+  ],
   "repository": "https://github.com/NoNameGhost/atom-placeholder-text",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "season" : "2.0.0"
+    "season": "2.0.0"
   }
 }
