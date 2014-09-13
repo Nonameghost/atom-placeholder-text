@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Insert Placeholder Text': 'placeholder-text:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Placeholder Text'
+      'submenu': [
+        { 'label': 'Insert Placeholder Text', 'command': 'placeholder-text:toggle' }
+      ]
+    ]
+  }
+]
