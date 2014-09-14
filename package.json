@@ -1,7 +1,7 @@
 {
   "name": "placeholder-text",
   "main": "./lib/placeholder-text",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A convenient dummy text palette for Atom.",
   "activationEvents": [
     "placeholder-text:toggle"
