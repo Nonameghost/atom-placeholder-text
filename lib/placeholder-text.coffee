@@ -3,15 +3,12 @@ CSON = require('season')
 
 module.exports =
 
-  configDefaults:
-    DataPath: atom.project.getPath()+("/data/data.cson")
-
-  # AddQuotes: false
-
   placeholderTextView: null
 
   activate: (state) ->
-    result = CSON.readFileSync(@configDefaults.DataPath)
+    path = atom.packages.getPackageDirPaths()[0]+"/placeholder-text/data/data.cson"
+    result = CSON.readFileSync(path)
+    console.log(atom.packages.getPackageDirPaths()[0])
     @placeholderTextView = new PlaceholderTextView(result)
     atom.workspaceView.command "placeholder-text:toggle", => @placeholderTextView.toggle()
 

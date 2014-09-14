@@ -10,10 +10,6 @@ The default keystroke on windows is (ctrl-alt-t), but it can also be accessed vi
 
 Doing so will open a select list view to browse defined placeholder text.
 
-In order for this package to function properly, you need to set the "DataPath" in the package's settings to po int to a properly configured CSON file. This file will contain all the dummy text and their names, and will be read by the tool to populate the list view.
-
-![A picture of the settings pane.](https://dl.dropboxusercontent.com/u/93823240/placeholderoptions.png)
-
 # TODO
 * Add graphical interface for adding/removing snippets, via serialized options page or something.
 * Along with dummy text snippets, have dummy text generation of certain length and format.

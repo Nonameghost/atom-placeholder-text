@@ -6,5 +6,8 @@
 '.platform-darwin .workspace':
     'cmd-alt-t': 'placeholder-text:toggle'
 
-'.platform-win32 .workspace, .platform-linux .workspace':
+'.platform-win32 .workspace':
+    'ctrl-alt-t': 'placeholder-text:.toggle'
+
+'.platform-linux .workspace':
     'ctrl-alt-t': 'placeholder-text:.toggle'
