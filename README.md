@@ -1,3 +1,7 @@
+# NOTE
+This wound up being a one off thing for practice, so I'm not planning on updating it for fixing it for new atom versions. I think some people made forks so check those out.
+
+
 # Placeholder-Text
 A convenient dummy text palette for Atom.
 
